@@ -1,0 +1,22 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual Environments
+venv/
+env/
+.venv/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# Datasets and Audio Files (DO NOT UPLOAD TO GITHUB)
+data/
+*.wav
+*.mp3
+
+# Compiled Models (We will upload the final quantized model later)
+*.h5
+*.hdf5
+saved_models/
