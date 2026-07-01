@@ -7,9 +7,10 @@ __pycache__/
 venv/
 env/
 .venv/
+.env
 
 # Jupyter Notebook checkpoints
-.ipynb_checkpoints
+.ipynb_checkpoints/
 
 # Datasets and Audio Files (DO NOT UPLOAD TO GITHUB)
 data/
