@@ -4,22 +4,34 @@ __pycache__/
 *$py.class
 
 # Virtual Environments
+Python Environments & Cache
+
 venv/
 env/
 .venv/
 .env
+pycache/
+*.pyc
 
-# Jupyter Notebook checkpoints
+Jupyter Notebook checkpoints
+
 .ipynb_checkpoints/
 
-# Datasets and Audio Files (DO NOT UPLOAD TO GITHUB)
+Datasets and Audio Files (DO NOT UPLOAD TO GITHUB)
+
 data/
 *.wav
 *.mp3
+*.npy
 
-# Compiled Models (We will upload the final quantized model later)
+OS Generated Files
+
+.DS_Store
+Thumbs.db
+
+Compiled Models
+
 *.h5
 *.hdf5
-*.keras
 *.csv
 saved_models/
